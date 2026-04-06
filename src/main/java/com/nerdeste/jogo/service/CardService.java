@@ -26,6 +26,10 @@ public class CardService {
 	public List<Card>listarTodos(){
 		return cardRepository.findAll();
 	}
+	
+	public Card buscarPorId(Long id) {
+		return cardRepository.findById(id).orElseThrow(() -> new RuntimeException("Card Não Encontrado"));
+	}
 
 }
 
