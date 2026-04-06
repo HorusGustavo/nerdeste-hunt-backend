@@ -1,5 +1,11 @@
+-- Limpa dados anteriores
+DELETE FROM jogador_desafio;
+DELETE FROM jogador_card;
+DELETE FROM card;
+DELETE FROM desafio;
 
-INSERT INTO desafios (nome, descricao, qr_code_token, ativo) VALUES
+-- Insere os 12 Desafios
+INSERT INTO desafio (nome, descricao, qr_code_token, ativo) VALUES
 ('Arena Gamer', 'O Desafio é: Jogar na Arena Helio Filho', 'TOKEN_DESAFIO_1', true),
 ('Meus Produtos', 'O Desafio é: Comprar no Mínimo 3 Itens de uma Loja', 'TOKEN_DESAFIO_2', true),
 ('Hora da Boquinha', 'Comprar alimento na vendinha', 'TOKEN_DESAFIO_3', true),
@@ -13,7 +19,8 @@ INSERT INTO desafios (nome, descricao, qr_code_token, ativo) VALUES
 ('Eu Amo Kpop', 'Assistir competição Kpop', 'TOKEN_DESAFIO_11', true),
 ('Eu Amo Cosplay', 'Assistir competição Cosplay', 'TOKEN_DESAFIO_12', true);
 
-INSERT INTO cards (nome, raridade, imagem_url, desafio_id) VALUES
+-- Insere os 12 Cards
+INSERT INTO card (nome, raridade, imagem_url, desafio_id) VALUES
 ('Arena Gamer', 'RARO', NULL, 1),
 ('Meus Produtos', 'RARO', NULL, 2),
 ('Hora da Boquinha', 'BASICO', NULL, 3),
