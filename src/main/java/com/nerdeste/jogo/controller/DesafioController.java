@@ -24,7 +24,7 @@ public class DesafioController {
     
     
     // GET /api/desafios
-    @GetMapping("/")
+    @GetMapping
     public ResponseEntity<List<Desafio>> listarTodos() {
         try {
             // Busca todos os desafios ativos
