@@ -24,7 +24,7 @@ public class CardController {
     
     
     // GET /api/cards
-    @GetMapping
+    @GetMapping("/")
     public ResponseEntity<List<Card>> listarTodos() {
         try {
             List<Card> cards = cardService.listarTodos();
@@ -49,3 +49,4 @@ public class CardController {
         }
     }
 }
+
