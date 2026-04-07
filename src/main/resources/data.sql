@@ -22,15 +22,15 @@ INSERT INTO desafio (nome, descricao, qr_code_token, ativo) VALUES
 
 -- Insere os 12 Cards com caminhos corretos
 INSERT INTO card (nome, raridade, imagem_url, desafio_id) VALUES
-('Arena Gamer', 'RARO', '/assets/cards/card-1.png', 1),
-('Meus Produtos', 'RARO', '/assets/cards/card-2.png', 2),
-('Hora da Boquinha', 'BASICO', '/assets/cards/card-3.png', 3),
-('Just Dance', 'RARO', '/assets/cards/card-4.png', 4),
-('Solte a Voz', 'LENDARIO', '/assets/cards/card-5.png', 5),
-('Eu Amo Artes', 'BASICO', '/assets/cards/card-6.png', 6),
-('Dominio dos Inflaveis', 'RARO', '/assets/cards/card-7.png', 7),
-('Bate Papo Geek', 'BASICO', '/assets/cards/card-8.png', 8),
-('Multiverso', 'RARO', '/assets/cards/card-9.png', 9),
-('Sou Cosplay', 'LENDARIO', '/assets/cards/card-10.png', 10),
-('Eu Amo Kpop', 'BASICO', '/assets/cards/card-11.png', 11),
-('Eu Amo Cosplay', 'BASICO', '/assets/cards/card-12.png', 12);
+('Arena Gamer', 'RARO', 'assets/cards/card-1.png', 1),
+('Meus Produtos', 'RARO', 'assets/cards/card-2.png', 2),
+('Hora da Boquinha', 'BASICO', 'assets/cards/card-3.png', 3),
+('Just Dance', 'RARO', 'assets/cards/card-4.png', 4),
+('Solte a Voz', 'LENDARIO', 'assets/cards/card-5.png', 5),
+('Eu Amo Artes', 'BASICO', 'assets/cards/card-6.png', 6),
+('Dominio dos Inflaveis', 'RARO', 'assets/cards/card-7.png', 7),
+('Bate Papo Geek', 'BASICO', 'assets/cards/card-8.png', 8),
+('Multiverso', 'RARO', 'assets/cards/card-9.png', 9),
+('Sou Cosplay', 'LENDARIO', 'assets/cards/card-10.png', 10),
+('Eu Amo Kpop', 'BASICO', 'assets/cards/card-11.png', 11),
+('Eu Amo Cosplay', 'BASICO', 'assets/cards/card-12.png', 12);
