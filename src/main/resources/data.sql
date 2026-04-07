@@ -20,7 +20,7 @@ INSERT INTO desafio (nome, descricao, qr_code_token, ativo) VALUES
 ('Eu Amo Cosplay', 'Assistir competição Cosplay', 'TOKEN_DESAFIO_12', true);
 
 
--- Insere os 12 Cards (com caminhos corretos)
+-- Insere os 12 Cards com caminhos corretos
 INSERT INTO card (nome, raridade, imagem_url, desafio_id) VALUES
 ('Arena Gamer', 'RARO', '/assets/cards/card-1.png', 1),
 ('Meus Produtos', 'RARO', '/assets/cards/card-2.png', 2),
