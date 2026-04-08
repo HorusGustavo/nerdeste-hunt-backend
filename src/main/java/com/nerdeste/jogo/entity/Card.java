@@ -26,7 +26,7 @@ public class Card {
 	@Column(nullable = false)
 	private Raridade raridade;
 	
-	@Column(nullable = true)
+	@Column(name = "imagem_url", nullable = true)
 	private String imagemUrl;
 	
 	@OneToOne
